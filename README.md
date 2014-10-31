@@ -54,3 +54,9 @@ Examples for long cadence quarter 17 stars:
 
 * false positive
 ![false positive](/example_fp.png)
+
+
+Full list of meta data
+----------------------
+Check **A.1a: Light Curve File Primary Header** of
+http://archive.stsci.edu/kepler/manuals/archive\_manual.pdf
