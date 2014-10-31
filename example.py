@@ -33,13 +33,13 @@ def main():
             plt.plot(t[~np.isnan(raw)], raw[~np.isnan(raw)], 'k.') # remove nan
             plt.title(k)
             plt.xlabel('time')
-            plt.xlabel('raw flux')
+            plt.ylabel('raw flux')
 
             plt.subplot(2, 2, i+2)
             plt.plot(t[~np.isnan(raw)], pdc[~np.isnan(raw)], 'r.') # remove nan
             plt.title(k)
             plt.xlabel('time')
-            plt.xlabel('PDC corrected flux')
+            plt.ylabel('PDC corrected flux')
 
     plt.show()
 
