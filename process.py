@@ -6,7 +6,8 @@
 #   - TIME:        Barycenter corrected Julian date
 #   - SAP_FLUX:    raw flux
 #   - PDCSAP_FLUX: flux processed by PDC, systematic error corrected
-#   - other meta data from primary header, see appendix of
+#   - other meta data 
+#     See the full list at [A.1a: Light Curve File Primary Header] of
 #     http://archive.stsci.edu/kepler/manuals/archive_manual.pdf
 #
 # ---------------------------------------------------------------------------

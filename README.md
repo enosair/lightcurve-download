@@ -13,7 +13,7 @@ http://archive.stsci.edu/kepler/data\_search/search.php
 Choose the output format to be FILE: WGET LC/TPF commands, this will create a
 customized WGET script.
 
-The scripts included are for long cadence lightcurves in quarter 17. We use
+The scripts included are for stars observed in quarter 17 in long cadence. We use the
 following abbreviations:
   * conf - confirmed to be exoplanet host star
   * cand - planetary candidates
@@ -28,7 +28,7 @@ Run
 python process.py <folder of fits file> <output json file>
 ```
 
-It will extract the fields and save it to a json file.
+It will extract the fields for each star and save data to a json file.
 
 Load and plot lightcurves
 -------------------------
