@@ -7,7 +7,6 @@ json file.
 Search & Download
 -----------------
 Find the bundle of Kepler data you want at
-
 http://archive.stsci.edu/kepler/data\_search/search.php
 
 Choose the output format to be FILE: WGET LC/TPF commands, this will create a
@@ -59,4 +58,4 @@ Examples for long cadence quarter 17 stars:
 Full list of meta data
 ----------------------
 Check **A.1a: Light Curve File Primary Header** of
-http://archive.stsci.edu/kepler/manuals/archive\_manual.pdf
+http://archive.stsci.edu/kepler/manuals/archive_manual.pdf
