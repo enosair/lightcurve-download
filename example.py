@@ -37,7 +37,6 @@ def main():
 
             plt.subplot(2, 2, i+2)
             plt.plot(t[~np.isnan(raw)], pdc[~np.isnan(raw)], 'r.') # remove nan
-            plt.title(k)
             plt.xlabel('time')
             plt.ylabel('PDC corrected flux')
 
