@@ -17,6 +17,8 @@ Process
 -------
 Run
 
+```python
 python process.py <folder of fits file> <output json file>
+```
 
 It will extract the fields and save it to a json file.
