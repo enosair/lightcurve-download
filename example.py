@@ -27,11 +27,11 @@ def main():
             t   = np.array(v['TIME'])
             raw = np.array(v['SAP_FLUX'])              # raw flux
             pdc = np.array(v['PDCSAP_FLUX'])           # PDC pipeline processed flux
+            R   = v['RADIUS']                          # stella radius
             
-
             plt.subplot(2, 2, i)
             plt.plot(t[~np.isnan(raw)], raw[~np.isnan(raw)], 'k.') # remove nan
-            plt.title(k)
+            plt.title("{0}  Radius {1}".format(k[0:13], R))    # name and radius
             plt.xlabel('time')
             plt.ylabel('raw flux')
 
