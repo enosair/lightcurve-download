@@ -12,7 +12,7 @@ def main():
     if len(sys.argv) == 2:
         jf = os.path.abspath(sys.argv[1])  # source json file
     else:                 
-        sys.exit('Usage: python process.py <source json file>')
+        sys.exit('Usage: python example.py <source json file>')
 
     # load data
     lc = json.load(open(jf, 'r'))
