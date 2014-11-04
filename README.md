@@ -1,8 +1,7 @@
 lightcurve-download
 ===================
 
-Download fits data and extract raw flux / pdc process flux / meta data, save to
-json file.
+Download fits data and extract raw flux / pdc process flux / meta data into json file.
 
 Search & Download
 -----------------
@@ -21,6 +20,10 @@ following abbreviations:
 
 Process
 -------
+You will need **PyFITS** module. See
+
+http://www.stsci.edu/institute/software_hardware/pyfits
+
 Run
 
 ```python
@@ -57,5 +60,5 @@ Examples for long cadence quarter 17 stars:
 
 Full list of meta data
 ----------------------
-Check **A.1a: Light Curve File Primary Header** of
+Check **A.1a: Light Curve File Primary Header** in
 http://archive.stsci.edu/kepler/manuals/archive_manual.pdf
