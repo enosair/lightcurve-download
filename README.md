@@ -26,7 +26,7 @@ http://www.stsci.edu/institute/software_hardware/pyfits
 
 Run
 
-```python
+```bash
 python process.py <folder of fits file> <output json file>
 ```
 
@@ -36,7 +36,7 @@ Load and plot lightcurves
 -------------------------
 Run
 
-```python
+```bash
 python example.py <json file>
 ```
 
