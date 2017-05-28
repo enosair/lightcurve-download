@@ -62,3 +62,8 @@ Full list of meta data
 ----------------------
 Check **A.1a: Light Curve File Primary Header** in
 http://archive.stsci.edu/kepler/manuals/archive_manual.pdf
+
+
+Remarks
+-----------------
+The data length depends on quarter.
